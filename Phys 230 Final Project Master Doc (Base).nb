@@ -1,0 +1,275 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12539,        265]
+NotebookOptionsPosition[     11576,        239]
+NotebookOutlinePosition[     12020,        256]
+CellTagsIndexPosition[     11977,        253]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Three-Body Boogie: Planetary Pirouettes",
+ FontFamily->"Video",
+ FontColor->RGBColor[1., 1., 0.]]], "Title",
+ CellChangeTimes->{{3.890496613510908*^9, 3.890496634989884*^9}, {
+  3.890496972645749*^9, 3.890497001881674*^9}, {3.8904971703789344`*^9, 
+  3.890497172619405*^9}},
+ TextAlignment->Center,ExpressionUUID->"60f8d247-cc2a-4c35-b469-aebfc96b721f"],
+
+Cell[TextData[StyleBox["\[OpenCurlyDoubleQuote]Galactic Crisis Looms as Three \
+Planets Teeter on Collision Course: Save the Galaxy with the Three-Body \
+Boogie!\[CloseCurlyDoubleQuote]\n\nIn a race against time, the fate of the \
+galaxy hangs in the balance as the capital planet of the esteemed Galactic \
+Corp for a Better Tomorrow, Today (GCfaBTT), a bustling trading hub, and a \
+revered alien civilization\[CloseCurlyQuote]s homeworld, teeter on the brink \
+of destruction. With mass hysteria gripping the cosmos, it\[CloseCurlyQuote]s \
+up to players to take charge as celestial engineers and avert catastrophe \
+with their expert planetary pirouettes in \[OpenCurlyDoubleQuote]Three-Body \
+Boogie\[CloseCurlyDoubleQuote]!\n\nUsing cutting-edge gravitational physics, \
+players must skillfully manipulate the orbits of these three celestial bodies \
+to avoid a catastrophic collision. With asteroids hurtling through space and \
+gravitational anomalies adding to the challenge, it\[CloseCurlyQuote]s a \
+daring dance of cosmic proportions. Can you keep the Tri-Star Trio twirling \
+and swirling in perfect harmony, or will the galaxy be plunged into chaos?\n\n\
+The clock is ticking, and failure is not an option! Put on your space \
+goggles, strap in, and get ready to perform the celestial boogie of a \
+lifetime in \[OpenCurlyDoubleQuote]Three-Body Boogie: Planetary Pirouettes.\
+\[CloseCurlyDoubleQuote] The fate of the GCfaBTT, the trading hub, the alien \
+civilization, and the entire galaxy rests in your hands. Will you be the hero \
+who saves the cosmos? Get your groove on and embark on this daring space \
+adventure today!",
+ FontFamily->"Video",
+ FontColor->RGBColor[1., 1., 0.5019607843137255]]], "Text",
+ CellChangeTimes->{{3.8904971827133245`*^9, 3.890497184206501*^9}, {
+  3.8904972351981115`*^9, 3.890497244412912*^9}, {3.8904976295234046`*^9, 
+  3.890497633875145*^9}},
+ TextAlignment->Center,ExpressionUUID->"d17ff8f1-07e5-489e-9d7f-6105b4e4d45a"],
+
+Cell[CellGroupData[{
+
+Cell["The Game and Code will go here: (As in, below this cell)", "Subtitle",
+ CellChangeTimes->{{3.890497793492337*^9, 
+  3.890497812915012*^9}},ExpressionUUID->"bf2be929-7d76-4d31-a7dd-\
+739565c0ab5d"],
+
+Cell["\<\
+Okay, but what\[CloseCurlyQuote]s actually going on here?
+(Insert research with a dash of witty and insightful commentary about said \
+scientific discoveries)\
+\>", "Text",
+ CellChangeTimes->{{3.8904978245593605`*^9, 
+  3.8904978567898417`*^9}},ExpressionUUID->"268f1b0e-f884-4355-9f91-\
+f1bc3ed8e0af"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reviews", "Subtitle",
+ CellChangeTimes->{{3.8904987159503365`*^9, 
+  3.8904987186683197`*^9}},ExpressionUUID->"7c6c22c3-6dcc-4ef8-9af2-\
+8bc51de95d5a"],
+
+Cell["\<\
+But what does the gaming industry at large think about Three Body Boogie?
+IGN: Score: 9.5/10
+
+Three-Body Boogie: Planetary Pirouettes is a mesmerizing, physics-based \
+puzzle game that pushes the boundaries of celestial gameplay. Developed by an \
+indie studio, this gem of a game offers a thought-provoking experience that \
+is both challenging and deeply contemplative.
+
+One of the standout features of Three-Body Boogie is its unique premise. \
+Players are tasked with balancing the orbits of three planets, including the \
+capital planet of the Galactic Corp for a Better Tomorrow, Today. The \
+gameplay mechanics are simple, yet ingeniously designed, requiring players to \
+manipulate gravitational forces to maintain a delicate balance and prevent \
+the planets from colliding. With each move, players must carefully strategize \
+and consider the consequences of their actions, as the fate of the entire \
+galaxy hangs in the balance.
+
+Visually, Three-Body Boogie is a visual treat, with stunning graphics that \
+bring the vastness of space to life. The cosmic backdrop and celestial bodies \
+are beautifully rendered, creating an immersive and awe-inspiring atmosphere \
+that draws players into the cosmic dance.
+
+The game\[CloseCurlyQuote]s sound design is also noteworthy, with a celestial \
+soundtrack that complements the gameplay perfectly. However, one minor \
+drawback is the occasional repetition of sound effects, which can become \
+slightly monotonous over time.
+
+The game\[CloseCurlyQuote]s difficulty curve is well-designed, starting off \
+with manageable challenges and gradually ramping up the complexity as players \
+progress through the levels. Each level presents a unique set of obstacles, \
+including asteroids and gravitational anomalies, which require careful \
+planning and precise execution to overcome.
+
+One of the standout aspects of Three-Body Boogie is its thought-provoking \
+nature. The game delves into existential themes, prompting players to ponder \
+the complexities of life, balance, and interconnectedness. It offers a \
+refreshing departure from traditional puzzle games, delivering a deeper, more \
+introspective experience that leaves players contemplating the meaning of \
+existence long after the game is over.
+
+Overall, Three-Body Boogie: Planetary Pirouettes is a stellar indie game that \
+pushes the boundaries of celestial puzzle gameplay. Its unique premise, \
+stunning visuals, and thought-provoking nature make it a standout title that \
+is sure to captivate players seeking a profound and immersive gaming \
+experience. With its challenging puzzles, beautiful aesthetics, and \
+existential undertones, Three-Body Boogie is a must-play for anyone looking \
+for a truly unique and meaningful gaming experience.
+
+Pros:
+
+Unique premise with physics-based puzzle gameplay
+Stunning graphics and celestial backdrop
+Thought-provoking existential themes
+Well-designed difficulty curve
+Cons:
+
+Repetitive sound effects
+Final Verdict: 9.5/10
+
+Forbes: Rating: 8.5/10
+
+Three-Body Boogie: Planetary Pirouettes is a thought-provoking indie game \
+that challenges players to balance the orbits of three planets in a delicate \
+dance of celestial physics. Developed by a small indie studio, this unique \
+title offers a refreshing departure from traditional puzzle games, delivering \
+a deeper and more introspective experience.
+
+One of the standout features of Three-Body Boogie is its innovative premise. \
+Players must carefully strategize and manipulate gravitational forces to \
+maintain the delicate balance of three planets, including the capital planet \
+of the Galactic Corp for a Better Tomorrow, Today. The gameplay mechanics are \
+simple, yet cleverly designed, requiring precise execution and critical \
+thinking to prevent the planets from colliding.
+
+Visually, Three-Body Boogie shines with its stunning graphics that bring the \
+vastness of space to life. The cosmic backdrop, celestial bodies, and \
+mesmerizing animations create an immersive atmosphere that draws players into \
+the cosmic dance of planetary orbits.
+
+The game\[CloseCurlyQuote]s sound design is also noteworthy, with a celestial \
+soundtrack that complements the gameplay and enhances the overall experience. \
+However, there are occasional repetitive sound effects that can be distracting.
+
+The difficulty curve of Three-Body Boogie is well-crafted, with levels \
+starting off manageable and gradually increasing in complexity. Players will \
+face various obstacles, such as asteroids and gravitational anomalies, which \
+require careful planning and precise execution to overcome.
+
+One of the standout aspects of Three-Body Boogie is its thought-provoking \
+nature. The game delves into existential themes, prompting players to ponder \
+the complexities of life, balance, and interconnectedness. It offers a unique \
+and introspective experience that is sure to resonate with players seeking a \
+deeper meaning in their gaming experiences.
+
+While Three-Body Boogie is an indie gem with its innovative gameplay and \
+thought-provoking themes, it may not be for everyone. Some players may find \
+the repetitive sound effects and challenging puzzles to be a hindrance to \
+their enjoyment. However, for those looking for a distinctive and meaningful \
+gaming experience, Three-Body Boogie: Planetary Pirouettes is a title worth \
+exploring.
+
+Pros:
+
+Innovative premise with unique gameplay mechanics
+Stunning graphics and immersive celestial backdrop
+Thought-provoking existential themes
+Well-designed difficulty curve
+Cons:
+
+Occasional repetitive sound effects
+Challenging puzzles may not be suitable for all players
+Final Verdict: 8.5/10
+
+Grandma: 10/10
+
+Oh, my sweetie, let me tell you about this adorable game called Three-Body \
+Boogie: Planetary Pirouettes! It\[CloseCurlyQuote]s just the cutest thing you\
+\[CloseCurlyQuote]ve ever seen! You get to play with three little planets and \
+make them dance in space! It\[CloseCurlyQuote]s like a cosmic ballet!
+
+The graphics are so colorful and fun, and the music is delightful! The \
+developers really put a lot of love into the details, and it shows. The \
+planets have the sweetest little expressions on their faces as they twirl \
+around in their orbits. It\[CloseCurlyQuote]s just precious!
+
+The gameplay is challenging, but not too hard. It keeps my mind sharp, and I \
+love how it makes me think strategically. I have to plan my moves carefully \
+to make sure the planets don\[CloseCurlyQuote]t crash into each other. It\
+\[CloseCurlyQuote]s like a cosmic puzzle that keeps me entertained for hours!
+
+What I love the most about Three-Body Boogie is that it\[CloseCurlyQuote]s so \
+unique and different from other games I\[CloseCurlyQuote]ve played. It\
+\[CloseCurlyQuote]s not just about shooting or racing, it\[CloseCurlyQuote]s \
+about balance and harmony in space. It\[CloseCurlyQuote]s a refreshing change \
+of pace, and I find it so captivating!
+
+I also appreciate how the game has a deeper meaning, making me ponder about \
+the interconnectedness of life and the universe. It\[CloseCurlyQuote]s a \
+thought-provoking experience that makes me feel like I\[CloseCurlyQuote]m \
+part of something bigger.
+
+Overall, Three-Body Boogie: Planetary Pirouettes is a delightful and charming \
+game that brings joy to my heart. It\[CloseCurlyQuote]s a cosmic adventure \
+that\[CloseCurlyQuote]s perfect for players of all ages, and I can\
+\[CloseCurlyQuote]t recommend it enough! It\[CloseCurlyQuote]s a 10/10 for \
+me, and I can\[CloseCurlyQuote]t wait to show it to my friends at the senior \
+center. They\[CloseCurlyQuote]re going to love it too!\
+\>", "Text",
+ CellChangeTimes->{{3.8904984368535404`*^9, 3.8904984943449154`*^9}, {
+  3.8904985955416865`*^9, 3.8904986189425144`*^9}, {3.89049868289434*^9, 
+  3.8904986984680457`*^9}},ExpressionUUID->"9122ff9c-7fe8-40bd-bd97-\
+879f7d0fa1c8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1152., 579.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
+StyleDefinitions->"ReverseColor.nb",
+ExpressionUUID->"bf6eda0a-e629-442e-8799-eb9aaee29391"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 377, 6, 86, "Title",ExpressionUUID->"60f8d247-cc2a-4c35-b469-aebfc96b721f"],
+Cell[960, 30, 1973, 27, 246, "Text",ExpressionUUID->"d17ff8f1-07e5-489e-9d7f-6105b4e4d45a"],
+Cell[CellGroupData[{
+Cell[2958, 61, 202, 3, 53, "Subtitle",ExpressionUUID->"bf2be929-7d76-4d31-a7dd-739565c0ab5d"],
+Cell[3163, 66, 312, 7, 64, "Text",ExpressionUUID->"268f1b0e-f884-4355-9f91-f1bc3ed8e0af"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3512, 78, 157, 3, 53, "Subtitle",ExpressionUUID->"7c6c22c3-6dcc-4ef8-9af2-8bc51de95d5a"],
+Cell[3672, 83, 7876, 152, 2612, "Text",ExpressionUUID->"9122ff9c-7fe8-40bd-bd97-879f7d0fa1c8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
